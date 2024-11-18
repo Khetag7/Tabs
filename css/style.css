@@ -1,0 +1,57 @@
+header
+{
+	margin-bottom: 50px;
+}
+.content__block
+{
+	background-color: #4444;
+	padding: 20px 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.content__info-one.active,
+.content__info-two.active,
+.content__info-three.active,
+.content__info-four.active,
+.content__info-five.active
+{
+	display: block;
+	color: white;
+	font-family: 'Open Sans';
+}
+.content__info-one,
+.content__info-two,
+.content__info-three,
+.content__info-four,
+.content__info-five
+{
+	display: none;
+}
+.buttons__block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.button__one,
+.button__two,
+.button__three,
+.button__four,
+.button__five
+{
+	color: white;
+	background-color: #222525;
+	line-height: 70px;
+	padding: 0 30px;
+	text-align: center;
+	border-radius: 20px;
+	font-family: 'Roboto';
+}
+.button__one:hover,
+.button__two:hover,
+.button__three:hover,
+.button__four:hover,
+.button__five:hover
+{
+	transition: .3s;
+	background-color: grey;
+}
